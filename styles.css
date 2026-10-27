@@ -3,16 +3,16 @@
 }
 
 :root {
-  --bg: #efefee;
-  --panel: #f5f5f4;
-  --row: #f1f1f0;
-  --row-alt: #e7e7e5;
-  --text: #2d2d2d;
-  --muted: #666;
-  --accent: #c97d2a;
-  --accent-strong: #b86a1f;
-  --accent-soft: #f3d7b5;
-  --shadow: rgba(35, 35, 35, 0.12);
+  --bg: #edf3f8;
+  --panel: #f8fbff;
+  --row: #eef4fb;
+  --row-alt: #e3edf9;
+  --text: #1f2d3d;
+  --muted: #51657b;
+  --accent: #2d5f9f;
+  --accent-strong: #1f4d82;
+  --accent-soft: #dfeaf9;
+  --shadow: rgba(24, 43, 69, 0.12);
 }
 
 body {
@@ -80,7 +80,7 @@ h1 {
   align-items: center;
   gap: 0;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: 1px solid rgba(18, 35, 52, 0.08);
   background: var(--row);
   color: var(--text);
   padding: 0;
@@ -95,23 +95,23 @@ h1 {
 
 .agenda-item:hover,
 .agenda-item:focus-visible {
-  background: rgba(201, 125, 42, 0.08);
+  background: rgba(45, 95, 159, 0.08);
   outline: none;
 }
 
 .agenda-item.is-active {
-  background: rgba(201, 125, 42, 0.18);
+  background: rgba(45, 95, 159, 0.17);
   box-shadow: inset 4px 0 0 var(--accent-strong);
 }
 
 .agenda-item.review {
   background: var(--accent-soft);
-  border-top: 1px solid rgba(201, 125, 42, 0.4);
-  border-bottom: 1px solid rgba(201, 125, 42, 0.4);
+  border-top: 1px solid rgba(47, 93, 159, 0.35);
+  border-bottom: 1px solid rgba(47, 93, 159, 0.35);
 }
 
 .agenda-item.review:nth-child(even) {
-  background: #f0d8b7;
+  background: #d7e5f6;
 }
 
 .item-number {
@@ -121,8 +121,8 @@ h1 {
   min-height: 72px;
   font-size: clamp(1.1rem, 1vw + 0.9rem, 1.6rem);
   font-weight: 800;
-  color: rgba(38, 38, 38, 0.9);
-  border-right: 1px solid rgba(0, 0, 0, 0.08);
+  color: rgba(31, 45, 61, 0.9);
+  border-right: 1px solid rgba(18, 35, 52, 0.08);
 }
 
 .item-text {
@@ -135,7 +135,7 @@ h1 {
 
 .review .item-number,
 .review .item-text {
-  color: #422c11;
+  color: #19385d;
 }
 
 .sidebar {
@@ -144,11 +144,11 @@ h1 {
 }
 
 .panel-card {
-  background: #f7f7f5;
+  background: #f7faff;
   padding: 22px 20px 18px;
   border-radius: 16px;
   box-shadow: 0 4px 18px var(--shadow);
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(18, 35, 52, 0.05);
 }
 
 .panel-tag {
@@ -176,8 +176,8 @@ h1 {
   margin-top: 18px;
   padding: 16px 14px;
   border-radius: 12px;
-  border: 1px dashed rgba(201, 125, 42, 0.7);
-  background: rgba(201, 125, 42, 0.04);
+  border: 1px dashed rgba(47, 93, 159, 0.75);
+  background: rgba(47, 93, 159, 0.04);
 }
 
 .placeholder-label {
